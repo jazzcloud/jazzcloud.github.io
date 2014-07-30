@@ -1,12 +1,64 @@
-# Site settings
-title: JazzCloud
-email: in@jazzcloud.co
-description: "Backends, APIs, refactoring."
-baseurl: ""
-url: "http://jazzcloud.co"
-twitter_username: jazzcloud
-# github_username:  inem
+# # Site settings
+# title: JazzCloud
+# email: in@jazzcloud.co
+# description: "Backends, APIs, refactoring."
+# baseurl: ""
+# url: "http://jazzcloud.co"
+# twitter_username: jazzcloud
+# # github_username:  inem
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+# # Build settings
+# markdown: kramdown
+# permalink: pretty
+
+
+
+title:            JazzCloud
+description:      Backends, APIs, refactoring.
+logo:             site-logo.png
+disqus_shortname: jazzcloud
+search:           true
+# Your site's domain goes here. When working locally use localhost server leave blank
+# PS. If you set this wrong stylesheets and scripts won't load and most links will break.
+# PPS. If you leave it blank for local testing home links won't work, they'll be fine for live domains though.
+url:              http://jazzcloud.co
+
+# Owner/author information
+owner:
+  name:           Ivan Nemytchenko
+  avatar:         inem_crop_crop.jpg
+  email:          in@jazzcloud.co
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        jazzcloud
+  # facebook:
+  # github:
+  # linkedin:
+  # instagram:
+  # tumblr:
+  # For Google Authorship https://plus.google.com/authorship
+  # google_plus:    "http://plus.google.com/123123123123132123"
+
+# Analytics and webmaster tools stuff goes here
+# google_analytics:
+# google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+# bing_verify:
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: About
+    url: /about/
+  - title: Articles
+    url: /a/
+  # - title: Google
+  #   url: http://google.com
+  #   external: true
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/New_York
+pygments:    true
+markdown:    kramdown
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
