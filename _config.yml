@@ -16,8 +16,8 @@
 title:            JazzCloud
 description:      Backends, APIs, refactoring.
 logo:             site-logo.png
-disqus_shortname: jazzcloud
-search:           true
+# disqus_shortname: jazzcloud
+search:           false
 # Your site's domain goes here. When working locally use localhost server leave blank
 # PS. If you set this wrong stylesheets and scripts won't load and most links will break.
 # PPS. If you leave it blank for local testing home links won't work, they'll be fine for live domains though.
@@ -49,8 +49,8 @@ owner:
 links:
   - title: About
     url: /about/
-  - title: Articles
-    url: /a/
+  # - title: Articles
+  #   url: /a/
   # - title: Google
   #   url: http://google.com
   #   external: true
