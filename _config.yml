@@ -4,7 +4,7 @@
 # description: "Backends, APIs, refactoring."
 # baseurl: ""
 # url: "http://jazzcloud.co"
-# twitter_username: jazzcloud
+
 # # github_username:  inem
 
 # # Build settings
@@ -14,10 +14,11 @@
 
 
 title:            JazzCloud
-description:      Backends, APIs, refactoring.
+description:      Helping companies to build sustainable backends for their products.
 logo:             site-logo.png
 # disqus_shortname: jazzcloud
 search:           false
+twitter:          jazzcloud
 # Your site's domain goes here. When working locally use localhost server leave blank
 # PS. If you set this wrong stylesheets and scripts won't load and most links will break.
 # PPS. If you leave it blank for local testing home links won't work, they'll be fine for live domains though.
@@ -29,7 +30,7 @@ owner:
   avatar:         inem_crop_crop.jpg
   email:          in@jazzcloud.co
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        jazzcloud
+  twitter:        inemation
   # facebook:
   # github:
   # linkedin:
@@ -47,8 +48,8 @@ owner:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
-    url: /about/
+  # - title: About
+  #   url: /about/
   # - title: Articles
   #   url: /a/
   # - title: Google
