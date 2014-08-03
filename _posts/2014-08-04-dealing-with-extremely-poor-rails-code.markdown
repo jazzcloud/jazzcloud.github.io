@@ -34,7 +34,7 @@ Every file in that folder is contains one class named by a verb, describing one 
       #All your hairy stuff here:
       def run(input_data)
         some_really_complex_stuff_here(input_data) do |data|
-          b = @project.bla(data)
+          b = project.bla(data)
           c = initiator.blabla(project_id, data, b)
           bla!(initiator, project_id, c)
         end
@@ -79,14 +79,14 @@ This is very small, but very significant change. What we have now:
 * At some point you start realizing, that some of your model's methods are used only in a single use case. This is a sign that you should move these methods to corresponding use case. And this leads to more clear models.
 
 
-So, that's pretty it. I had to say, that it is really cheap change. We're not going hardcore with [Robert Martin's patterns of refactoring](unclebob) or super-strict [Sandi Metz rules](sandi).
+So, that's pretty it. I had to say, that it is really cheap change. We're not going hardcore with [Robert Martin's patterns of refactoring](http://www.amazon.com/Refactoring-Edition-Addison-Wesley-Professional-Series/dp/0321984137) or super-strict [Sandi Metz rules](https://www.youtube.com/watch?v=npOGOmkxuio).
 
 We just made one obvious change and got huge profit in pretty bad situation!
 
 For further reading I recommend these articles:
 
-* "[Writing Use Cases](hawkins)" by [Adam Hawkins](http://twitter.com/admin65)
-* "[Services - what are they and why we need them](arkency)" by [Marcin Grzywaczewski](http://twitter.com/killavus)
+* "[Writing Use Cases](http://hawkins.io/2014/01/writing_use_cases/)" by [Adam Hawkins](http://twitter.com/admin65)
+* "[Services - what are they and why we need them](http://blog.arkency.com/2013/09/services-what-they-are-and-why-we-need-them/)" by [Marcin Grzywaczewski](http://twitter.com/killavus)
 
 
 [unclebob]: http://www.amazon.com/Refactoring-Edition-Addison-Wesley-Professional-Series/dp/0321984137
