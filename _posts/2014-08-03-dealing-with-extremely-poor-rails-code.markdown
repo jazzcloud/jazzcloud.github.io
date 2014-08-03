@@ -6,9 +6,9 @@ categories: refactoring rails
 ---
 
 
-_When I travel and renting a room on Airbnb, sometimes that room is far from Wi-Fi router. I had to go across the room and look for the place where signal is not so bad._
+_When I travel and renting a room on Airbnb, sometimes that room is far from Wi-Fi router. I had to go across the room and look for place where signal is not so bad._
 
-_And a program measuring quality of signal usually says "Extremely poor signal", and it simply means that internet will not work at all, but when it says "Very poor", I am happy, because now I can actually do something._
+_And when a program measuring quality of signal usually says "Extremely poor signal", it means that internet will not work at all, but when it says "Very poor", I am happy, because now I can actually do something._
 
 Lets talk about how to turn extremely poor code of your rails application into very poor code :)
 
