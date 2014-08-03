@@ -5,7 +5,7 @@ date:   2014-08-04 13:32:00
 categories: refactoring
 ---
 
-I want to share an advise about refactoring, I learned recently.
+I want to share an advise about refactoring, I learned recently:
 
 __Don't push it too hard__ & __don't do it for free__
 

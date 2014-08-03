@@ -5,13 +5,14 @@ date:   2014-08-04 07:00:04
 categories: refactoring rails
 ---
 
-<i>When I travel and renting a room on Airbnb, sometimes that room is far from the Wi-Fi router. I had to go across the room and look for the place where signal is not so bad.</i>
 
-<i>And a program measuring quality of signal usually says "Extremely poor signal", and it simply means that internet will not work at all, but when it says "Very poor", I am happy, because now I can actually do something.</i>
+_When I travel and renting a room on Airbnb, sometimes that room is far from the Wi-Fi router. I had to go across the room and look for the place where signal is not so bad._
+
+_And a program measuring quality of signal usually says "Extremely poor signal", and it simply means that internet will not work at all, but when it says "Very poor", I am happy, because now I can actually do something._
 
 Lets talk about how to turn extremely poor code of your rails application into very poor code :)
 
-First of all, <strong>get your shit out of controllers!</strong>
+If you're sure you not [pushing it too hard](/refactoring/on-refactoring), it is time to __get shit out of your controllers!__
 
 Controllers should be only responsible for requests, responses, sessions and cookies. But they usualy contain lots of business logic.
 
@@ -87,10 +88,3 @@ For further reading I recommend these articles:
 
 * "[Writing Use Cases](http://hawkins.io/2014/01/writing_use_cases/)" by [Adam Hawkins](http://twitter.com/admin65)
 * "[Services - what are they and why we need them](http://blog.arkency.com/2013/09/services-what-they-are-and-why-we-need-them/)" by [Marcin Grzywaczewski](http://twitter.com/killavus)
-
-
-[unclebob]: http://www.amazon.com/Refactoring-Edition-Addison-Wesley-Professional-Series/dp/0321984137
-[sandi]: https://www.youtube.com/watch?v=npOGOmkxuio
-
-[hawkins]: http://hawkins.io/2014/01/writing_use_cases/
-[arkency]: http://blog.arkency.com/2013/09/services-what-they-are-and-why-we-need-them/
