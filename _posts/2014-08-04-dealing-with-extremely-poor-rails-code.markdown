@@ -79,7 +79,7 @@ This is very small, but very significant change. What we have now:
 * At some point you start realizing, that some of your model's methods are used only in a single use case. This is a sign that you should move these methods to corresponding use case. And this leads to more clear models.
 
 
-So, that's pretty it. I had to say, that it is really cheap change. We're not going hardcore with [Robert Martin's patterns of refactoring](http://www.amazon.com/Refactoring-Edition-Addison-Wesley-Professional-Series/dp/0321984137) or super-strict [Sandi Metz rules](https://www.youtube.com/watch?v=npOGOmkxuio).
+So, that's pretty it. I had to say, that it is really cheap change. We're not going hardcore with [Martin Fowler's patterns of refactoring](http://www.amazon.com/Refactoring-Edition-Addison-Wesley-Professional-Series/dp/0321984137) or super-strict [Sandi Metz rules](https://www.youtube.com/watch?v=npOGOmkxuio).
 
 We just made one obvious change and got huge profit in pretty bad situation!
 
