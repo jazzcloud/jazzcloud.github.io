@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "On refactoring"
-date:   2014-08-04 13:32:00
+date:   2014-08-03 13:32:00
 categories: refactoring
 ---
 

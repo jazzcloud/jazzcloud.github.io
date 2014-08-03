@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dealing with extremely poor rails code"
-date:   2014-08-04 07:00:04
+date:   2014-08-03 07:00:04
 categories: refactoring rails
 ---
 

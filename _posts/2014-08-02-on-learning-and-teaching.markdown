@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "On learning and teaching"
-date:   2014-08-03 23:46:04
+date:   2014-08-02 23:46:04
 categories: learning
 ---
 
