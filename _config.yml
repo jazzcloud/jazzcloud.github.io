@@ -1,18 +1,3 @@
-# # Site settings
-# title: JazzCloud
-# email: in@jazzcloud.co
-# description: "Backends, APIs, refactoring."
-# baseurl: ""
-# url: "http://jazzcloud.co"
-
-# # github_username:  inem
-
-# # Build settings
-# markdown: kramdown
-# permalink: pretty
-
-
-
 title:            JazzCloud
 description:      Building sustainable backends using power of ruby
 logo:             site-logo.png
