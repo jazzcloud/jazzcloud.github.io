@@ -17,6 +17,7 @@ title:            JazzCloud
 description:      Building sustainable backends using power of ruby
 logo:             site-logo.png
 disqus_shortname: jazzcloud
+comments:         true
 search:           false
 twitter:          jazzcloud
 # Your site's domain goes here. When working locally use localhost server leave blank
