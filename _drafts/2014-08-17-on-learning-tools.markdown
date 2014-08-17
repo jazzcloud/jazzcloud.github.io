@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "On learning"
+title:  "On learning tools"
 date:   2014-08-17 13:18:42
 categories: 
 ---
