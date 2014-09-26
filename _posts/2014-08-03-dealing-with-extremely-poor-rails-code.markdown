@@ -3,6 +3,7 @@ layout: post
 title:  "Dealing with extremely poor rails code"
 date:   2014-08-03 07:00:04
 categories: refactoring rails
+comments: true
 ---
 
 
@@ -34,11 +35,13 @@ Every file in that folder is contains one class named by a verb, describing one 
 
       #All your hairy stuff here:
       def run(input_data)
+        output = []
         some_really_complex_stuff_here(input_data) do |data|
           b = project.bla(data)
           c = initiator.blabla(project_id, data, b)
-          bla!(initiator, project_id, c)
+          output << bla!(initiator, project_id, c)
         end
+        output
       end
 
       private

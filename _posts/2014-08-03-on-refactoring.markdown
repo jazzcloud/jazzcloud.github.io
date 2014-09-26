@@ -3,6 +3,7 @@ layout: post
 title:  "On refactoring"
 date:   2014-08-03 13:32:00
 categories: refactoring
+comments: true
 ---
 
 I want to share an advise about refactoring, I learned recently:
