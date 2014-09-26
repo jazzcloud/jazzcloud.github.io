@@ -5,7 +5,23 @@ description: ""
 tags: []
 ---
 
-<h1 class='entry-title'>Competencies</h1>
+<h1 class='entry-title'>Recent articles</h1>
+
+<ul class="post-list">
+{% for post in site.posts limit:10 %}
+  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+{% endfor %}
+</ul>
+
+
+<!-- <h1 class='entry-title'>Products</h1>
+<ul class="post-list">
+  <li>Gitforms.io - Pull-request powered content management</li>
+  <li>Gridguru.io - </li>
+  <li>NeverStopLearn.it - </li>
+</ul> -->
+
+<h1 class='entry-title'>What we do</h1>
 <h2>Backends</h2>
 
 <p>The heart of your backend is business logic. To survive in constantly changing conditions(i.e. real world), your business logic code should be lean.</p>
@@ -32,7 +48,6 @@ tags: []
 </p>
 
 
-<center><h2>***</h2></center>
 <!--<p>Go learn more about <a href="/approach.html">our approach</a> or <a href="/contacts.html">contact us</a> to discuss your problem.</p>
  -->
 
@@ -40,12 +55,3 @@ tags: []
 <!--
 <h1 class='entry-title'>How to start</h1>
  -->
-
-
-<h1 class='entry-title'>Recent articles</h1>
-
-<ul class="post-list">
-{% for post in site.posts limit:10 %}
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
-{% endfor %}
-</ul>
