@@ -20,7 +20,7 @@ I think every employer would be happy from such developer in his team. And if su
 But wait a minute.. We have lots of tools for task management, lots of different development tools, but where are our tools for learning?
 Are we so confident in our learning skills, that we need no assistance?
 
-I remember, when we were learning in university, we had exercise books, notebooks(paper notebooks I mean). And it was in some way a measure of our learning progress. And also a logging tool.
+I remember, when we were learning in university, we had exercise books and notebooks(paper notebooks I mean). And it was in some way a measure of our learning progress. And also a logging tool.
 And we always could return to our notes and refresh our knowledge.
 
 Nowadays some people use Evernote to collect notes, some do plain-text logs of their work, some even write blog posts about their successes. But we have no specific tool for that.
