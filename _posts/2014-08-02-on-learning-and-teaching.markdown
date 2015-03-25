@@ -6,6 +6,8 @@ categories: learning
 comments: true
 ---
 
+![guru and newbie](images/content/learning.png)
+
 There is one thing about learning that annoys me.
 Once you learned something, it now looks obvious for you.
 And you start to think that it doesn't worth to tell anybody about it, because you think that it is obvious for other people too.
