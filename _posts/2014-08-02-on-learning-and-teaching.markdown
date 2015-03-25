@@ -6,7 +6,7 @@ categories: learning
 comments: true
 ---
 
-![guru and newbie](images/content/learning.png)
+![guru and newbie](/images/content/learning.png)
 
 There is one thing about learning that annoys me.
 Once you learned something, it now looks obvious for you.
