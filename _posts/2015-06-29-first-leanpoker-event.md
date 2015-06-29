@@ -22,7 +22,7 @@ Two days passed from the moment I completed first Lean Poker event as a facilita
 
 - Location has changed 3 days before the event.
 - Only 7 participants came out of 28 registrations. I think that counts as anti-record.
-- We loose about half of an hour, because univercity proxy server detected "Gambling" in our activity! :)
+- We loose about half of an hour, because university proxy server detected "Gambling" in our activity! :)
 
 ## But. Guess the results. 
 
