@@ -26,32 +26,32 @@ Here's how it looks in an application, I had to deal with:
 Every file in that folder is contains one class named by a verb, describing one small scenario, which lots of people in Agile community call "use case":
 
 {% highlight ruby %}
-  module UseCases::Samples
-    class UseCase
-      def initialize(initiator, project_id)
-        @initiator = initiator
-        @project_id = project_id
-      end
+module UseCases::Samples
+  class UseCase
+    def initialize(initiator, project_id)
+      @initiator = initiator
+      @project_id = project_id
+    end
 
-      #All your hairy stuff here:
-      def run(input_data)
-        output = []
-        some_really_complex_stuff_here(input_data) do |data|
-          b = project.bla(data)
-          c = initiator.blabla(project_id, data, b)
-          output << bla!(initiator, project_id, c)
-        end
-        output
+    #All your hairy stuff here:
+    def run(input_data)
+      output = []
+      some_really_complex_stuff_here(input_data) do |data|
+        b = project.bla(data)
+        c = initiator.blabla(project_id, data, b)
+        output << bla!(initiator, project_id, c)
       end
+      output
+    end
 
-      private
-      attr_accessor :initiator, :project_id
+    private
+    attr_accessor :initiator, :project_id
 
-      def project
-        @project ||= Project.find_by_id(project_id)
-      end
+    def project
+      @project ||= Project.find_by_id(project_id)
     end
   end
+end
 {% endhighlight %}
 
 You can go as wild as you want inside your use cases - implement everything in bash scripts, pure SQL or whatever you want. The rest of the application doesn't care about it. It's ok, until use case returns correct data, which you views are waiting for.
@@ -61,17 +61,17 @@ Actual look of your use case will of course depend on your business logic, but o
 So, controller actions start look like this after that change:
 
 {% highlight ruby %}
-  def create
-    use_case = UseCases::Samples::Create.new(current_user, @project.id)
-    @samples = use_case.run(params[:samples])
-    render_results
-  end
+def create
+  use_case = UseCases::Samples::Create.new(current_user, @project.id)
+  @samples = use_case.run(params[:samples])
+  render_results
+end
 
-  def mass_update
-    use_case = UseCases::Samples::Update.new(current_user, @project.id)
-    use_case.run(params[:samples])
-    render_results
-  end
+def mass_update
+  use_case = UseCases::Samples::Update.new(current_user, @project.id)
+  use_case.run(params[:samples])
+  render_results
+end
 {% endhighlight %}
 
 
