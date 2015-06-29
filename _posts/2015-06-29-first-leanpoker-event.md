@@ -8,6 +8,11 @@ comments: true
 
 Two days passed from the moment I completed first Lean Poker event as a facilitator. It is good time to summarize everything and to share some feedback from participants.
 
+[![list of events][2]][1]
+
+  [2]: /images/content/leanpoker-firstevent.png
+  [1]: http://live.leanpoker.org/events/ended
+
 ### Few things surprized me:
 
 - Initial description of event told people nothing about what is going to happen, who could benefit from it and what is required to participate :\
