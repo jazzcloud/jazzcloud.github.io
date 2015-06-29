@@ -29,7 +29,7 @@ Two days passed from the moment I completed first Lean Poker event as a facilita
 Every single person participated in Lean Poker:
 
 - learned something new from it and admitted it was useful!
-- definitely will recommend it to a friend!
+- definitely would recommend it to a friend!
 - would like to repeat it one day!
 
 See the faces! They can't lie :)
