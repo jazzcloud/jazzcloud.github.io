@@ -1,5 +1,5 @@
 title:            JazzCloud
-description:      Know the Rules then break the Rules
+description:      Digital thoughts of Ivan Nemytchenko
 logo:             site-logo.png
 disqus_shortname: jazzcloud
 comments:         true
@@ -8,7 +8,7 @@ twitter:          jazzcloud
 # Your site's domain goes here. When working locally use localhost server leave blank
 # PS. If you set this wrong stylesheets and scripts won't load and most links will break.
 # PPS. If you leave it blank for local testing home links won't work, they'll be fine for live domains though.
-url:              http://jazzcloud.co
+# url:              http://jazzcloud.co
 
 # Owner/author information
 owner:

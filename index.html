@@ -1,57 +1,14 @@
 ---
 layout: index
-title: Hi
+<!-- title: Hi -->
 description: ""
 tags: []
 ---
 
-<h1 class='entry-title'>Recent articles</h1>
+<h1 class='entry-title'>Recent posts</h1>
 
 <ul class="post-list">
 {% for post in site.posts limit:10 %}
   <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
 {% endfor %}
 </ul>
-
-
-<!-- <h1 class='entry-title'>Products</h1>
-<ul class="post-list">
-  <li>Gitforms.io - Pull-request powered content management</li>
-  <li>Gridguru.io - </li>
-  <li>NeverStopLearn.it - </li>
-</ul> -->
-
-<h1 class='entry-title'>What we do</h1>
-<h2>Backends</h2>
-
-<p>The heart of your backend is business logic. To survive in constantly changing conditions(i.e. real world), your business logic code should be lean.</p>
-<p>Ideally the core shouldn't care about persistence, interaction with other services and it should have minimum of dependencies. It should be well-tested and all possible ways to use it should be documented.</p>
-<p>Once you achieved it, you can switch storage, payment services provider or any other 3rd party service to another one with ease.</p>
-<p>And we want you to have such code. And this is kind of code, we're writing.</p>
-<p>
-<a href="mailto:nemytchenko@gmail.com?subject=I need a backend">→ I need this for my product</a>
-</p>
-
-
-<h2>Refactoring</h2>
-<p>There's a huge amount of companies suffering from their current codebase. Busines wants to add new features rapidly, but development can't, because existing code is too complicated and fragile. At this point no innovation is possible anymore, and this is not good.</p>
-
-<p>You already paid a lot to develop your product. Now it is time to invest in architecture, quality and all those things, which you ignored while you main focus was growth.
-
-<p>
-<a href="mailto:nemytchenko@gmail.com?subject=I want my code to be refactored">→ I want to stop suffering</a>
-</p>
-
-<h2>APIs</h2>
-<p>There's no chance, you can write an application, which does not care about interaction with the world. Either you're going to consume some API, or you had to provide one. We can help you with both.</p>
-<p><a href="mailto:nemytchenko@gmail.com?subject=API business">→ I have an API-related problem</a>
-</p>
-
-
-<!--<p>Go learn more about <a href="/approach.html">our approach</a> or <a href="/contacts.html">contact us</a> to discuss your problem.</p>
- -->
-
-
-<!--
-<h1 class='entry-title'>How to start</h1>
- -->

@@ -1,3 +1,9 @@
+---
+layout: page
+title: Mission
+permalink: /mission/
+---
+
 Our main goal is to help companies to build sustainable backends for their products.
 
 # Backends
