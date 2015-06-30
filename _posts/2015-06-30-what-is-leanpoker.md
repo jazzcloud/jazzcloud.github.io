@@ -50,10 +50,10 @@ Depending on this data you need to return integer value, representing your curre
 Of course you need to read the API and set up the environment to be able to test it locally. But ask yourself, is there anything to do to become better than your competitors even at this starting point.
 
 # The structure
-There is a game. Tournament consists of many games, and it continues until one player gets all he money. Winner takes 5 ponts, second place takes 2 points. 
 
-Then new tournament starts. And then another and another during the whole day.
-So don't worry that your bot losed all the money. Those are not real money anyway :) And it was just one tournamet - one small point on resulting graph. 
+While you are coding, your bots will keep playing sit'n'gos of standard No Limit Texas Holdem every few seconds. In each round of sit'n'go your bot has 1000 chips to spend. (No actuall money involved...) If your bot wins all 1000 chips your team gets 5 points. If you come second, you get 3 points. You are free to deploy a new version of your bot at any time. 
+
+We call a single sit'n'go a game in Lean Poker, and the set of about a 1000 games that play throughout the event is called a tournament. To win the tournament all you need to do, is to consistently be just a little bit better then the other teams.
 
 I hope this prezintation helps to understand the structure more than confuses:
 
