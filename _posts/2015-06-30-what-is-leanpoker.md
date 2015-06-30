@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What is Lean&nbsp;Poker"
-date:   2015-06-29 18:18:42
+date:   2015-06-30 18:02:42
 categories: leanpoker
 comments: true
 ---
