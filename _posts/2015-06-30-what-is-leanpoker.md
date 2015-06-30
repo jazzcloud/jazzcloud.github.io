@@ -27,7 +27,7 @@ But it has little in common with classic _workshops_, where participants learn n
 As a programmer, how fast do you think you're able to produce the value?
 What is the value at all? How valuable unit tests are? Should you invest your time in clean code? Does selection of programming language matter?
 
-These are god questions, isn't it? At the end of day you will not just know the answers. You will have deep level of understanding of those things.
+These are good questions, isn't it? At the end of day you will not just know the answers. You will have deep level of understanding of those things.
 
 # Who is it for?
 
