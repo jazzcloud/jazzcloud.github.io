@@ -17,7 +17,7 @@ But it has little in common with classic _workshops_, where participants learn n
 - There is no teaching, no lectures, no repeting after presenter. You already know enough, believe me.
 - The goal is not to learn something new. The goal is to learn how to use what you already know more efficient.
 - You will have to program poker bot. Your bot will start to fight with other since very first second. And you have limited time. Like in _hackathon_. 
-- You will have 4-5 one-hour coding sessions with brakes to discuss your progress, current problems and solutions(like _agile retrospectives_).
+- You will have 4-5 one-hour coding sessions with breaks to discuss your progress, current problems and solutions(like _agile retrospectives_).
 - There will be you, your favorite language, your laptop, your team and very competitive environment.
 - Yes, you can call it a _competition_. It is definitely a _competition_! But winning is not a goal.
 - I personnaly like formulation "_startup conditions simulation_".
