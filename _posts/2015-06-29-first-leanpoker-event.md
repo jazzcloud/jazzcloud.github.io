@@ -44,4 +44,4 @@ So I am going to do my marketing job better. We need clean answers on these thre
 - What knowledge and skills should I have to participate?
 - I am going to spend 6+ hours of my life! What will I get for this?
 
-UPD: New post: ["What is Lean Poker"](/leanpoker/what-is-leanpoker/)
+UPD: Read the next post: ["What is Lean Poker"](/leanpoker/what-is-leanpoker/)
