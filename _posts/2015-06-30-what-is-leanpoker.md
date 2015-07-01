@@ -59,9 +59,6 @@ I hope this prezintation helps to understand the structure more than confuses:
 
 <iframe id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="630" height="400" src="https://prezi.com/embed/oatjvg6lcjyv/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=eyJleHBlcmltZW50cyI6eyJjdGEiOlstMiwwXSwiZml0LWxvYWR1aSI6Wy0yLDBdfSwicGFnZV92aWV3X2lkIjoiZjlhYWQ0YjA5MDIxNWZlNyJ9&amp;landing_sign=3SLaemgUJE01HLtZNAje6UGPCPXL5D2RpGGOdjkIrDQ%253D#"></iframe>
 
-Please let me know in comments if it doesn't makes sense.
-
-
 # The roots
 
 Lean Poker is invented by hungarian programmer Rafael Ordog. First Lean Poker event was held in January of 2014. 
