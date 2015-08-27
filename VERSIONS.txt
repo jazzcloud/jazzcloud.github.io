@@ -6,6 +6,8 @@
 
 0.2 Provides details about process, pricing, team experience
 
-- Multiple pages with clarificat
+- Multiple pages with clarifications
 - Contains contacts page
+
+0.3 applying new vision
 
